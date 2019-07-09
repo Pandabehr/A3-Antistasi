@@ -1,5 +1,5 @@
 if !(_this in vehUnlimited) then
-	{
+{
 	_cant = timer getVariable _this;
 	if !(isNil _cant) then
 		{
@@ -13,3 +13,4 @@ if !(_this in vehUnlimited) then
 			timer setVariable [_this,0,true];
 			};
 		};
+};
